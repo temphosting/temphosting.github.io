@@ -1,0 +1,17 @@
+# -*- mode: conf; -*-
+
+top-title: mrenaud
+top-tagline: Knowledge Enthusiast
+author:
+  name: Matt Renaud
+  email: mrenaud92@gmail.com
+  github: mrenaud92
+
+markdown: redcarpet
+highlighter: pygments
+permalink: /blog/:year/:month/:day/:title
+
+production_url: http://mrenaud.ca
+
+category-list: [code, cs, editors, math, unix]
+difficulty-levels: [easy, moderate, hard]
