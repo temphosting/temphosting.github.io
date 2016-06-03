@@ -1,14 +1,14 @@
 ---
-layout: layout
+layout: default
 ---
+<div class="post">
 
-<div class="content">
-  <div id="post">
-    {% include post_header.html %}
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
     {{ content }}
-  </div>
+  </article>
 
-  <div id="comments">
-    If you have any comments or questions send me an email at mrenaud dot swe at gmail dot com.
-  </div>
 </div>
