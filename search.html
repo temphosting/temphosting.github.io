@@ -4,17 +4,42 @@ title: Search
 permalink: /search/
 ---
 
+
+
 <HTML>
 <HEAD>
 
+	<meta name="WT.qs_dlk" content="V1I3WwrIZ7cAAHfKNXIAAAAI"/>
+
+	<meta name="WT.qs_shmv" content="hv20150423-overstreet.sf.quinstreet.net"/>
+
+	<meta name="inject_params" content="WT.qs_dlk=V1I3WwrIZ7cAAHfKNXIAAAAI&"/>
+
+	<meta http-equiv="Set-Cookie" content="inject_params=WT.qs_dlk=V1I3WwrIZ7cAAHfKNXIAAAAI&; path=/;  domain=htmlgoodies.com;"/>
+	<meta http-equiv="Set-Cookie" content="WMUUID=V1I3WwrIZ7cAAHfKNXIAAAAI; path=/;  domain=htmlgoodies.com;"/>
+
+
+<TITLE>Search Engine</title>
+
 <script>
 
-firstname = new Object();
-lastname = new Object();
-country = new Object();
+<!-- Begin copyright - This must be retained and posted as is to use this script -->
 
-shipname = new Object();
-material = = new Object();
+// This Script was created by Satadip Dutta. 
+// Email: sat_dutta@post1.com  / satadipd@inf.com 
+// URL:http://dutta.home.ml.org
+// Please honor my hard work, if you use a variant of this in your page, 
+// then please email me :) and keep these comments in the Script.
+// This code is Copyright (c) 1997 Satadip Dutta
+// all rights reserved.
+// License is granted to user to reuse this code on their own Web site 
+// if, and only if, this entire copyright notice is included. The Web Site
+// containing this  script   must be a not-for-profit ( non-commercial ) web site. If the script is to be used in a commercial   
+// website exclusive permission must be obtained before using it.
+// Joe Burns of htmlgoodies.com has been authorised to use this code in the
+// site htmlgoodies.com.
+
+<!-- End copyright - This must be retained and posted as is to use this script -->
 
 title = new Object();
 desc = new Object();
@@ -23,10 +48,20 @@ matched= new Object();
 keywords= new Object();
 found= new Object();
 var temp=0;
-
+// actual location or the item to be searched
+// description of he location
+// actual link
+// percentage match found
+// keywords as parsed from the input
+// # of titles present in the database
 title[0]=121
+//no of keywords after parsing
 keywords[0]=0
+//no of  matches found.
 found[0]=0
+
+<!-- Begin List of Searchable Items -->
+
 
 title[1]="xml html 4"
 desc[1]="What is XML?"
@@ -38,31 +73,647 @@ desc[2]=" So You Want To Open a New Window, Huh? "
 links[2]=" http://www.htmlgoodies.com/openwin.html"
 matched[2]=0
 
-
-firstname[1]="Christopher"
-lastname[1]="Columbus"
-country[1]="Spain"
-links[1]="/people/christopher_columbus/"
-matched[1]=0
-
-firstname[2]="Henry"
-lastname[2]="Hudson"
-country[2]="England"
-links[2]="/people/henry_hudson/"
-matched[2]=0
-
-firstname[3]="John"
-lastname[3]="Smith"
-country[3]="England"
-links[3]="/people/john_smith/"
+title[3]="dhtml dynamic html"
+desc[3]="Multiple DHTML Example Can Be Found Here"
+links[3]=" http://www.htmlgoodies.com/layers.html"
 matched[3]=0
+
+title[4]="cookie shopping cart java script"
+desc[4]="So You Want A Shopping Cart, Huh?"
+links[4]="shoppingcart.html"
+matched[4]=0
+
+
+title[5]="active channel channels microsoft xml explorer ie msie"
+desc[5]="So You Want An Active Channel, Huh?"
+links[5]="activechan.html"
+matched[5]=0
+
+title[6]="java scripts submit html goodies color text scrolling text display javascript"
+desc[6]="Java Goodies - Striving to be the largest collection of Java Scripts on the World Wide Web"
+links[6]="javagoodies/"
+matched[6]=0
+
+
+
+title[7]="html all reference command home page commands list flags"
+desc[7]="Goodies - All HTML Commands"
+links[7]="html_ref.html"
+matched[7]=0
+
+
+title[8]="glossary reference terms computer internet"
+desc[8]="Computer and Internet Glossary"
+links[8]="glossary.html"
+matched[8]=0
+
+
+title[9]="my thoughts good page home what on email opinion"
+desc[9]="My Thoughts On Building A Home Page"
+links[9]="mythoughts.html"
+matched[9]=0
+
+
+title[10]="newspaper column columns col cols text width gutter"
+desc[10]="So You Want Newspaper Columns, Huh? - Netscape Only"
+links[10]="cols.html"
+matched[10]=0
+
+
+title[11]="real audio realaudio sound file encoder meta ra ram midi wav au aiff mime encode encoder"
+desc[11]="So You Want Real Audio, Huh?"
+links[11]="ra.html"
+matched[11]=0
+
+title[12]="ftp directory shift key directory "
+desc[12]="So You Want An FTP Directory, Huh?"
+links[12]="ftpdir.html"
+matched[12]=0
+
+title[13]="ascii & command < > characters character keyboard copyright trademark latin numerical special"
+desc[13]="So You Want An ASCII Command, Huh?"
+links[13]="ascii.html"
+matched[13]=0
+
+title[14]="underline no links style plain one link"
+desc[14]="So You Don't Want Underlines on Links, Huh?"
+links[14]="noundelineonlinks.html"
+matched[14]=0
+
+title[15]="count counter number page cgi bin path codeword public domain"
+desc[15]="So You Want A Counter, Huh?"
+links[15]="counter.html"
+matched[15]=0
+
+
+title[16]="no html directory mkdir index index.html"
+desc[16]="So You Don't Want .html, Huh?"
+links[16]="directory/"
+matched[16]=0
+
+title[17]="refresh meta sound play automatically ta da dynamic loop page change by itself HTTP-EQUIV content"
+desc[17]="So You Want Dynamic Pages, Huh?"
+links[17]="dynamic5.html"
+matched[17]=0
+
+title[18]="transparant image Paint shop pro lview see through invisible gif89 gif jpeg"
+desc[18]="So You Want Transparant Images, Huh?"
+links[18]="transpar.html"
+matched[18]=0
+
+title[19]="jump internal page name href link # link in page jump jumping "
+desc[19]="So You Want A Page Jump, Huh?"
+links[19]="pagejump.html"
+matched[19]=0
+
+title[20]="& command ascii & command < > characters character keyboard copyright trademark latin numerical special"
+desc[20]="So You Want An & Command, Huh?"
+links[20]="&command.html"
+matched[20]=0
+
+title[21]="animate animated gif gifs motion image picture compiler control movement"
+desc[21]="So You Want An Animated Gif, Huh?"
+links[21]="animate.html"
+matched[21]=0
+
+title[22]="indent list html TD TR &nbsp; bullets square UL LI roman ol dt dl dd"
+desc[22]="So You Want HTML Lists, Huh?"
+links[22]="lists.html"
+matched[22]=0
+
+title[23]="password protected directory codeword"
+desc[23]="So You Want Password Protected Page, Huh?"
+links[23]="pw.html"
+matched[23]=0
+
+
+title[24]="meta search engine keywords keyword generator content description"
+desc[24]="So You Want Meta Commands, Huh?"
+links[24]="meta.html"
+matched[24]=0
+
+title[25]="database search searchable own site keyword"
+desc[25]="So You Want Searchable database, Huh?"
+links[25]="database.html"
+matched[25]=0
+
+title[26]="database searchable own site keyword goodies search"
+desc[26]="Goodies Search Engine"
+links[26]="db.html"
+matched[26]=0
+
+title[27]="database searchable own site keyword goodies search"
+desc[27]="So You Want Your Own Searchable Database, Huh?"
+links[27]="howto_db.html"
+matched[27]=0
+
+title[28]="embed midi sounds wav au aiff midis helper wham plug-in plug in AUTOSTART LOOP play"
+desc[28]="So You Want To Embed Sounds, Huh?"
+links[28]="embed.html"
+matched[28]=0
+
+title[29]="cookie"
+desc[29]="So You Want A Cookie, Huh?"
+links[29]="cookie.html"
+matched[29]=0
+
+title[30]="text font face look style"
+desc[30]="So You Want To Change Your Font, Huh?"
+links[30]="textfont.html"
+matched[30]=0
+
+
+title[31]="ftp download ascii binary raw data dos upload transfer on server images"
+desc[31]="So You Want To FTP and Download, Huh?"
+links[31]="ftp.html"
+matched[31]=0
+
+title[32]="registering register page pages search engine submit"
+desc[32]="So You Want To Register Your Pages, Huh?"
+links[32]="register.html"
+matched[32]=0
+
+title[33]="images thumbnail small"
+desc[33]="So You Want Thumbnail Images, Huh?"
+links[33]="thmbnail.html"
+matched[33]=0
+
+title[34]="banner advertise advertisers sponsors hits visitors money cost profit impression"
+desc[34]="So You Want Sponsors and Advertisers, Huh?"
+links[34]="banner.html"
+matched[34]=0
+
+title[35]="new window browser open"
+desc[35]="So You Want A New Browser Window, Huh?"
+links[35]="new_win.html"
+matched[35]=0
+
+title[36]="chat room chatroom Sneakerchat pow wow powwwow"
+desc[36]="So You Want A Chat Room, Huh?"
+links[36]="chatroom.html"
+matched[36]=0
+
+title[37]="pow wow powwow Tribal Voice contact others chat chatroom room"
+desc[37]="So You Want To Pow Wow, Huh?"
+links[37]="powwow.html"
+matched[37]=0
+
+title[38]="domain virtual name com edu net IP number url octet"
+desc[38]="So You Want Your Own Domain, Huh?"
+links[38]="domain.html"
+matched[38]=0
+
+title[39]="client side image map imagemap links mapedit ismap usemap Coordinates circle"
+desc[39]="So You Want A Client Side Image Map, Huh?"
+links[39]="cs_imap.html"
+matched[39]=0
+
+title[40]="image map imagemap links mapedit ismap usemap Coordinates circle"
+desc[40]="So You Want An Image Map, Huh?"
+links[40]="imagemap.html"
+matched[40]=0
+
+
+title[41]="link buttons line up table form"
+desc[41]="So You Want To Line Up Link Buttons, Huh?"
+links[41]="linebutt.html"
+matched[41]=0
+
+title[42]="link button form action link input type value"
+desc[42]="So You Want A Link Button, Huh?"
+links[42]="formbutt.html"
+matched[42]=0
+
+
+title[43]="color colored link button form action link input type value"
+desc[43]="So You Want A Colored Link Button, Huh?"
+links[43]="colorbutton.html"
+matched[43]=0
+
+title[44]="guestbook guest book CGI mailto enctype text plain text plain action method post email mail form"
+desc[44]="So You Want A Guestbook, Huh?"
+links[44]="g_book.html"
+matched[44]=0
+
+title[45]="form textarea text box radio button check pop up send reset option method input select"
+desc[45]="So You Want A Form, Huh?"
+links[45]="forms.html"
+matched[45]=0
+
+title[46]="frame scrolling scroll border framespace margin height width resize advanced"
+desc[46]="So You Want Some More Frame Commands, Huh?"
+links[46]="ad_frame.html"
+matched[46]=0
+
+title[47]="frame frameset col cols row name target no frame scrolling scroll border framespace margin"
+desc[47]="So You Want Some Frames, Huh?"
+links[47]="frame1.html"
+matched[47]=0
+
+title[48]="stripe side line image sideline background"
+desc[48]="So You Want Sideline Background, Huh?"
+links[48]="sideline.html"
+matched[48]=0
+
+title[49]="background image wallpaper"
+desc[49]="So You Want A Background, Huh?"
+links[49]="backgrnd.html"
+matched[49]=0
+
+title[50]="color command code word text change link vlink alink body"
+desc[50]="So You Want Basic Color Command, Huh?"
+links[50]="basic_cl.html"
+matched[50]=0
+
+
+title[51]="color hex code background body font command word text change link vlink alink body"
+desc[51]="So You Want A Text Color Code, Huh?"
+links[51]="text.html"
+matched[51]=0
+
+title[52]="color hex code background body font command word text change link vlink alink body"
+desc[52]="So You Want Color Code, Huh?"
+links[52]="colors.html"
+matched[52]=0
+
+title[53]="lowsrc low src image picture gif jpeg"
+desc[53]="So You Want A LOWSRC Command, Huh? - Netscape Only"
+links[53]="lowsrc.html"
+matched[53]=0
+
+title[54]="height width atl load fast image picture gif jpeg"
+desc[54]="So You Want Height, Width, and ATL Commands, Huh?"
+links[54]="hw.html"
+matched[54]=0
+
+title[55]="1 by X small images picture line lines color"
+desc[55]="So You Want A 1X1 Image, Huh?"
+links[55]="1x1.html"
+matched[55]=0
+
+title[56]="image picture active link click border"
+desc[56]="So You Want An Active Image, Huh?"
+links[56]="imagelink.html"
+matched[56]=0
+
+title[57]="screen capture image picture"
+desc[57]="So You Want A Screen Capture, Huh?"
+links[57]="capture.html"
+matched[57]=0
+
+title[58]="table color td tr cell border bgcolor"
+desc[58]="So You Want Color In A Table, Huh?"
+links[58]="colortbl.html"
+matched[58]=0
+
+title[59]="table calendar year month td tr cell border"
+desc[59]="So You Want A Table Calendar, Huh?"
+links[59]="calendar.html"
+matched[59]=0
+
+title[60]="table color td tr cell border bgcolor colspan rowspan"
+desc[60]="So You Want Some Advanced Table Commands, Huh?"
+links[60]="ad_table.html"
+matched[60]=0
+
+title[61]="table td tr cell border frame"
+desc[61]="So You Want A Table, Huh?"
+links[61]="table.html"
+matched[61]=0
+
+title[62]="java javascript script oop object applet"
+desc[62]="Java Vs. Javascript"
+links[62]="j_vs_js.html"
+matched[62]=0
+
+title[63]="java javascript script scroll"
+desc[63]="So You Want A Scrolling Java Script, Huh?"
+links[63]="java.html"
+matched[63]=0
+
+title[64]="java javascript script ticker tape tickertape"
+desc[64]="So You Want A Java Ticker Tape, Huh?"
+links[64]="tickertp.html"
+matched[64]=0
+
+title[65]="java javascript script clock"
+desc[65]="So You Want A Java Clock, Huh?"
+links[65]="javatime.html"
+matched[65]=0
+
+title[66]="java javascript script color background change"
+desc[66]="So You Want A Background Java Script, Huh?"
+links[66]="backjava.html"
+matched[66]=0
+
+title[67]="java javascript script live pop up alert"
+desc[67]="So You Want A Live Script, Huh?"
+links[67]="popup.html"
+matched[67]=0
+
+title[68]="java javascript script onClick onMouseOver"
+desc[68]="So You Want An Advanced Java Script, Huh?"
+links[68]="adv_js.html"
+matched[68]=0
+
+title[69]="vbsscript script ms msie Microsoft Explorer Active X"
+desc[69]="So You Want A VBS Script, Huh?"
+links[69]="vbscript.html"
+matched[69]=0
+
+title[70]="java applet class advanced CODEBASE PARAM NAME code value hspace vspace"
+desc[70]="So You Want A Java Applet, Huh?"
+links[70]="applet.html"
+matched[70]=0
+
+title[71]="java applet class advanced CODEBASE PARAM NAME code value hspace vspace"
+desc[71]="So You Want An Advanced Applet, Huh?"
+links[71]="ad_aplet.html"
+matched[71]=0
+
+title[72]="Pop-Up pop up Link java applet class advanced CODEBASE PARAM NAME code value hspace vspace"
+desc[72]="So You Want A Pop-Up Link, Huh?"
+links[72]="popupjava.html"
+matched[72]=0
+
+title[73]="guestbook CGI Common gateway interface perl script bin directory"
+desc[73]="So You Want To Place A CGI, Huh? - A Guestbook CGI"
+links[73]="placecgi.html"
+matched[73]=0
+
+title[74]="count counter CGI Common gateway interface perl script bin directory"
+desc[74]="So You Want Your Own Counter CGI, Huh?"
+links[74]="countcgi.html"
+matched[74]=0
+
+title[75]="bbs server bull board CGI Common gateway interface perl script bin directory"
+desc[75]="So You Want Your Own BBS Server, Huh?"
+links[75]="bbscgi.html"
+matched[75]=0
+
+title[76]="MS IE Explorer Microsoft marquee style sheets"
+desc[76]="So You Want An Explorer Scrolling Marquee, Huh?"
+links[76]="marquee.html"
+matched[76]=0
+
+title[77]="MS IE Explorer Microsoft marquee style sheets"
+desc[77]="So You Want Some Explorer Commands, Huh?"
+links[77]="ie.html"
+matched[77]=0
+
+title[78]="MS IE Explorer Microsoft marquee style sheets"
+desc[78]="So You Want A Style Sheet, Huh?"
+links[78]="ie_style.html"
+matched[78]=0
+
+title[79]="line lines pictures picture images gif download"
+desc[79]="Available Lines - All are in .gif format"
+links[79]="lines.html"
+matched[79]=0
+
+title[80]="ball balls images gif pictures picture download"
+desc[80]="Available Balls - All are in .gif format"
+links[80]="balls.html"
+matched[80]=0
+
+title[81]="arrow arrows images gif download pictures picture"
+desc[81]="Available Arrows - All are in .gif format"
+links[81]="arrows.html"
+matched[81]=0
+
+title[82]="button buttons images gif download pictures picture"
+desc[82]="Available Buttons - All are in .gif format"
+links[82]="buttons.html"
+matched[82]=0
+
+title[83]="icon icons images gif download pictures picture"
+desc[83]="Available Icons - All are in .gif format"
+links[83]="icons.html"
+matched[83]=0
+
+
+title[84]="layer laying layers layered Netscape"
+desc[84]="So You Want Layers, Huh?"
+links[84]="layer.html"
+matched[84]=0
+
+title[85]="layer laying layers layered Netscape Motion"
+desc[85]="So You Want Layers, Huh? - Part II Adding Motion"
+links[85]="layer2.html"
+matched[85]=0
+
+title[86]="primer start basics graduation ftp server helper applications"
+desc[86]="Basic Primer #7 - You Graduated!"
+links[86]="primer_7.html"
+matched[86]=0
+
+
+title[87]="primer start basics images text align height width hr size"
+desc[87]="Basic Primer #6 - Manipulating Images"
+links[87]="primer_6.html"
+matched[87]=0
+
+title[88]="primer start basics images image picture link activate"
+desc[88]="Basic Primer #5 - Images"
+links[88]="primer_5.html"
+matched[88]=0
+
+title[89]="primer start basics link url href a"
+desc[89]="Basic Primer #4 - Links To Other Pages"
+links[89]="primer_4.html"
+matched[89]=0
+
+title[90]="primer start basics font h center centering text"
+desc[90]="Basic Primer #3 - Manipulating Text"
+links[90]="primer_3.html"
+matched[90]=0
+
+title[91]="primer start basics flag flags end begin hr br p title html"
+desc[91]="Basic Primer #2 - Manipulating Text"
+links[91]="primer_2.html"
+matched[91]=0
+
+title[92]="primer start basics html browser get started hyper text mark up text"
+desc[92]="Basic Primer #2 - Manipulating Text"
+links[92]="primer_1.html"
+matched[92]=0
+
+
+title[93]="scan scanning digitize image picture"
+desc[93]="Goodies Scanning Service - $1 per scan"
+links[93]="scan.html"
+matched[93]=0
+
+
+title[94]="video digitize image picture mpeg mov avi"
+desc[94]="Goodies Video Service"
+links[94]="hgvideo.html"
+matched[94]=0
+
+title[95]="video digitize image picture mpeg mov avi"
+desc[95]="So You Want A Video, Huh?"
+links[95]="video.html"
+matched[95]=0
+
+title[96]="tutorial tutorials html all reference command home page commands list flags"
+desc[96]="HTML Goodies - The Master List"
+links[96]="master.html"
+matched[96]=0
+
+
+title[97]="links link academic"
+desc[97]="Links to the Goodies Site"
+links[97]="mainlink.html"
+matched[97]=0
+
+
+
+title[98]="image flip mouse over java script change"
+desc[98]="So You Want A Java Script Image Flip, Huh?"
+links[98]="imageflip.html"
+matched[98]=0
+
+title[99]="table tables"
+desc[99]="So You Want A Table In A Table, Huh?"
+links[99]="tbl_in_tbl.html"
+matched[99]=0
+
+
+title[100]="align image text right left top middle bottom"
+desc[100]="So You Want To Align text, Huh?"
+links[100]="align.html"
+matched[100]=0
+
+
+title[101]="no hand curser image link"
+desc[101]="So You Don't Want A Hand Image, Huh?"
+links[101]="nohand.html"
+matched[101]=0
+
+
+title[102]="image form submit click on"
+desc[102]="So You Want To Submit Your Form With An Image, Huh?"
+links[102]="imageform.html"
+matched[102]=0
+
+title[103]="frame two more change link button multiple"
+desc[103]="So You Want To Change More Than One Frame, Huh?"
+links[103]="2atonce.html"
+matched[103]=0
+
+title[104]="head html meta base href"
+desc[104]="So You Want To HEAD Commands, Huh?"
+links[104]="head.html"
+matched[104]=0
+
+
+title[105]="copyright"
+desc[105]="Copyright Questions and Answers"
+links[105]="copyright.html"
+matched[105]=0
+
+title[106]="image map fake link"
+desc[106]="So You Want A Fake Image Map, Huh?"
+links[106]="fakemap.html"
+matched[106]=0
+
+
+title[107]="html description declare declatation"
+desc[107]="So You Want An HTML Declaration, Huh?"
+links[107]="descript.html"
+matched[107]=0
+
+title[108]="dhtml dynamic html style sheet sheets positioning class id java script javascript div"
+desc[108]="So You Want DHTML, Huh?"
+links[108]="dhtml.html"
+matched[108]=0
+
+
+title[109]="dhtml dynamic html style sheet sheets positioning class id java script javascript div"
+desc[109]="DHTML Example Number Two"
+links[109]="dhtml2.html"
+matched[109]=0
+
+title[110]="frame frames explorer in line in-line"
+desc[110]="So You Want In-Line Frames, Huh?"
+links[110]="inlineframes.html"
+matched[110]=0
+
+
+
+title[111]="frame border color frames"
+desc[111]="So You Want Frame Border Color, Huh?"
+links[111]="framecolor.html"
+matched[111]=0
+
+
+
+title[112]="java javascript script external"
+desc[112]="So You Want an External JavaScript, Huh?"
+links[112]="extjs.html"
+matched[112]=0
+
+
+title[113]="position positioning style sheet sheets cascading"
+desc[113]="So You Want Positioning, Huh?"
+links[113]="positioning.html"
+matched[113]=0
+
+
+
+title[114]="class id style sheet cascading sheets positioning"
+desc[114]="So You Want Classes and ID's, Huh?"
+links[114]="classid.html"
+matched[114]=0
+
+
+title[115]="web ring"
+desc[115]="So You Want A Web Ring's, Huh?"
+links[115]="webring.html"
+matched[115]=0
+
+title[116]="class id style sheet cascading sheets positioning form forms guestbook"
+desc[116]="So You Want CSS Commands With Forms, Huh?"
+links[116]="cssforms.html"
+matched[116]=0
+
+title[117]="link site primer"
+desc[117]="So You Want Your First Site, Huh?"
+links[117]="sitelinks.html"
+matched[117]=0
+
+title[118]="html 4 version"
+desc[118]="HTML 4.0"
+links[118]="html4.html"
+matched[118]=0
+
+
+title[119]="transition power point dhtml example 3"
+desc[119]="So You Want Transitions, Huh?"
+links[119]="transition.html"
+matched[119]=0
+
+
+title[120]="text alter bold italic underline change big small make"
+desc[120]="So You Want To Change Text, Huh?"
+links[120]="textcodes.html"
+matched[120]=0
+
+
+title[121]="banner banners ad advertising animate image gif crop paste copy text shadow primer primers"
+desc[121]="The HTML Goodies Banner Primers"
+links[121]="bannerprimers.html"
+matched[121]=0
+
+
 
 
 
 <!-- End list of Searchable items -->
 
 function search(){
-
+// get the input from the input by the user and strip it into keywords
+//+
 var skeyword=document.searchengine.keywords.value.toLowerCase();
 var check=1;
 var pos=0;
@@ -97,7 +748,10 @@ while (true)
 		}
 			 
 	}
+// the keywords have been put in keywords object.
 keywords[0]=check;
+//alert(check);
+// matching and storing the matches in matched
 for ( i=1; i<=keywords[0];i++)
 	{
 	for (j=1;j<=title[0];j++)
@@ -108,16 +762,21 @@ for ( i=1; i<=keywords[0];i++)
 			}
 		}	
 	}
+// putting all the indexes of the matched records  in found
 
 for (i=1;i<=title[0];i++)
 {
 	if (matched[i] > 0 )
 		{
 		  found[0]++;
+		// increment the found 	
 		  found[found[0]]=i;
 			
 		}	
 }
+//alert("found 0 " +  found[0]);
+// sort the list as per max percentage of matches
+
 
 for (i=1;i<=found[0]-1;i++)
 	{
@@ -132,14 +791,18 @@ for (i=1;i<=found[0]-1;i++)
 		}
 	}
 
+
+
+// end of sort
+
+// prepare for document write.
 config='toolbar=no,location=no,directories=no,status=no,menubar=no,' 
 config += 'scrollbars=yes,resizable=yes' 
 output = window.open ("","outputwindow",config) 
-output.document.write('<title> Search Results </title>');
+output.document.write('<title> Goodies Search Results </title>');
 output.document.write('<BODY bgcolor=#ffffff  text=#000000  link=#990099 vlink =#339966 >');
 
-output.document.write('<center> <h1> Search Results </h1></center>');    
-output.document.write('<center> <h1> Search Results </h1></center>');    
+output.document.write('<center> <h1>Goodies Search Results </h1></center>');    
 output.document.write('<hr>');
 output.document.write(' The Keyword(s) you searched :: '.big() )
 for (i=1;  i<=keywords[0]; i++)
@@ -150,12 +813,14 @@ output.document.write('<br>');
 
 if (found[0]==0)
 	{
+	//alert(found[0]);
 	 output.document.write('<hr>');
 	 output.document.write("<b>No matches resulted in this search </b> <br>");
 	output.document.write("You may close the results and reduce the length/number  of the keywords  <br>");
 	}
 else
 	{
+	// data has been found
 	output.document.write(" <hr> <b> The Results of the search are  : </b>  ");
 	output.document.write( found[0] +"  Entries found  ".italics());
 	output.document.write("<table border=1 width=100%>");
@@ -174,12 +839,17 @@ links[itemp].link(links[itemp])+"<br>");
 	found[0]=0;
 	output.document.write("</table>");
 	}
+output.document.write ('This search was created by   &copy <a href="http:\\dutta.home.ml.org"> Satadip Dutta</a>    1997');
+output.document.write ("<hr>");
 output.document.write ("<form><center>") 
 output.document.write ("<input type='button' value='Start Another Search' onClick = 'self.close()'>") 
 output.document.write ("</center></form>") 
 }
 
 </script>
+
+<!--#include virtual="/ssi/header-goodies.html" -->
+<!--#include virtual="/ssi/subhead-goodies.html" -->
 
 
 <center>
@@ -208,6 +878,16 @@ Keywords:
 <br>
 </center>
 </form>
+<FONT SIZE="-1" COLOR="800000">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This search was created by   &copy; Satadip Dutta, 1997.<BR>
+</font>
 </body>
 
 </td>
+<!--# include virtual="/ssi/subfooter-goodies.html" -->
+<!--# include virtual="/ssi/footer-goodies.html" -->
+
+
+
+
+
