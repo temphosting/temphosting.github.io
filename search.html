@@ -46,7 +46,6 @@ lastname = new Object();
 country = new Object();
 
 title = new Object();
-desc = new Object();
 links= new Object();
 matched= new Object();
 keywords= new Object();
@@ -94,7 +93,6 @@ links[3]="/people/john_smith/"
 matched[3]=0
 
 title[4]="cookie shopping cart java script"
-desc[4]="So You Want A Shopping Cart, Huh?"
 links[4]="shoppingcart.html"
 matched[4]=0
 
@@ -160,9 +158,7 @@ for (i=1;i<=title[0];i++)
 	if (matched[i] > 0 )
 		{
 		  found[0]++;
-		// increment the found 	
 		  found[found[0]]=i;
-			
 		}	
 }
 //alert("found 0 " +  found[0]);
@@ -221,8 +217,7 @@ else
 		output.document.write("<h3>" +i +"</h3>");
 		output.document.write("<td valign=top>");
 		itemp=found[i];
-		output.document.write(desc[itemp].bold() +"<br>" +
-links[itemp].link(links[itemp])+"<br>");
+		output.document.write(firstname[itemp].bold() +"<br>" + lastname[itemp].bold() +"<br>" + country[itemp].bold() +"<br>" + links[itemp].link(links[itemp])+"<br>");
 		temp= (matched[itemp]/keywords[0])*100
 		output.document.write("<i> Matched  with keywords  :: " +temp+" %  </i>" );
 		matched[itemp]=0
